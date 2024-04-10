@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>アンケート</title>
+        <link rel="stylesheet" href="form2.css">
+    </head>
+    <body>
+        <h1>アンケート</h1>
+        <div id="format">
+            Axizの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をしていただけると幸いです。
+            <div class="form-group">
+                <div class="name&image">
+                    <label for="name">会社名</label><div class="hissu">必須</div>
+                </div>
+                <input type="text" name="name" placeholder="例)株式会社テクノコア" size="65px">
+            </div>
+            <div class="form-group">
+                <div class="name&image">
+                    <label for="name">お名前</label><div class="hissu">必須</div>
+                </div>
+                <input type="text" name="name" placeholder="例)知久野　興吾" size="65px">
+            </div>
+            <div class="form-group">
+                <label for="name">メールアドレス</label><br>
+                <input type="text" name="name" placeholder="例)example.co.jp" size="65px">
+            </div>
+            <div class="form-group">
+                <label for="name">年齢</label><br>
+                <input type="text" name="name" placeholder="23" size="5px" style="text-align: center;">
+            </div>
+            <div class="form-group">
+                <div class="sq">
+                    <label for="name">受講コース</label><br>
+                    <label><div class="border"><input type="radio" name="sei" value="male" checked>Java</div></label>
+                    <label><div class="border"><input type="radio" name="sei" value="female">インフラ</div></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="name">会場</label><br>
+                <select name="会場">
+                    <option value="A" selected>関東A会場</option>
+                    <option value="B">関東B会場</option>
+                    <option value="C">関東C会場</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="sq">
+                    <label for="name">詳しく学びたい内容(複数回答可)</label><br>
+                    <div class="border"><label><input type="checkbox" name="A">ビジネスマナー</label></div>
+                    <div class="border"><label><input type="checkbox" name="B">HTTML/CSS</label></div>
+                    <div class="border"><label><input type="checkbox" name="C">JacaScript</label></div>
+                    <div class="border"><label><input type="checkbox" name="D">Java</label></div>
+                    <div class="border"><label><input type="checkbox" name="E">データベース</label></div>
+                    <div class="border"><label><input type="checkbox" name="F">Linux</label></div>
+                </div>                
+            </div>
+            <div class="form-group">
+                <label for="name">ご意見</label><br>
+                <label><textarea name="free" rows="4" cols="62" placeholder="自由にご記入ください。"></textarea></label>
+            </div>
+            <div class="form-group">
+            <button type="submit">送信する</button>
+            </div>
+        </div>
+        <footer>
+            Copyright (C) Axiz
+        </footer>    
